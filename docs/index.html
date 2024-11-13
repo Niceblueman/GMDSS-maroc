@@ -46,7 +46,7 @@
             const quizDataHistoire = questionsHistoire.map((question, index) => ({
                 q: question.question,
                 options: question.options.map(option => option.text),
-                correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
+                correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
             }));
 
             const responseSMDSM = await fetch('smdsm.json');
@@ -54,7 +54,7 @@
             const quizDataSMDSM = questionsSMDSM.map((question, index) => ({
                 q: question.question,
                 options: question.options.map(option => option.text),
-                correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
+                correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
             }));
 
             const responseVHFASN = await fetch('vhf_asn.json');
@@ -62,7 +62,7 @@
             const quizDataVHFASN = questionsVHFASN.map((question, index) => ({
                 q: question.question,
                 options: question.options.map(option => option.text),
-                correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
+                correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
             }));
 
             $('#quiz-histoire').quiz({
