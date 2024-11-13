@@ -40,66 +40,68 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-quiz/1.0.0/jquery.quiz.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-quiz/1.0.0/jquery.quiz.min.css">
     <script>
-        async function loadQuiz() {
-            const responseHistoire = await fetch('histoire.json');
-            const questionsHistoire = await responseHistoire.json();
-            const quizDataHistoire = questionsHistoire.map((question, index) => ({
-                q: question.question,
-                options: question.options.map(option => option.text),
-                correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
-            }));
+        $(document).ready(function() {
+            async function loadQuiz() {
+                const responseHistoire = await fetch('histoire.json');
+                const questionsHistoire = await responseHistoire.json();
+                const quizDataHistoire = questionsHistoire.map((question, index) => ({
+                    q: question.question,
+                    options: question.options.map(option => option.text),
+                    correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
+                }));
 
-            const responseSMDSM = await fetch('smdsm.json');
-            const questionsSMDSM = await responseSMDSM.json();
-            const quizDataSMDSM = questionsSMDSM.map((question, index) => ({
-                q: question.question,
-                options: question.options.map(option => option.text),
-                correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
-            }));
+                const responseSMDSM = await fetch('smdsm.json');
+                const questionsSMDSM = await responseSMDSM.json();
+                const quizDataSMDSM = questionsSMDSM.map((question, index) => ({
+                    q: question.question,
+                    options: question.options.map(option => option.text),
+                    correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
+                }));
 
-            const responseVHFASN = await fetch('vhf_asn.json');
-            const questionsVHFASN = await responseVHFASN.json();
-            const quizDataVHFASN = questionsVHFASN.map((question, index) => ({
-                q: question.question,
-                options: question.options.map(option => option.text),
-                correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
-            }));
+                const responseVHFASN = await fetch('vhf_asn.json');
+                const questionsVHFASN = await responseVHFASN.json();
+                const quizDataVHFASN = questionsVHFASN.map((question, index) => ({
+                    q: question.question,
+                    options: question.options.map(option => option.text),
+                    correctIndex: (Array.isArray(question.correct) ? question.correct : [question.correct]).map(value => question.options.findIndex(option => option.value === value))
+                }));
 
-            $('#quiz-histoire').quiz({
-                questions: quizDataHistoire,
-                resultsScreen: '#results-screen-histoire',
-                counter: false,
-                homeButton: '#custom-home',
-                nextButtonText: 'Suivant',
-                finishButtonText: 'Terminer',
-                restartButtonText: 'Recommencer',
-                multiSelect: true
-            });
+                $('#quiz-histoire').quiz({
+                    questions: quizDataHistoire,
+                    resultsScreen: '#results-screen-histoire',
+                    counter: false,
+                    homeButton: '#custom-home',
+                    nextButtonText: 'Suivant',
+                    finishButtonText: 'Terminer',
+                    restartButtonText: 'Recommencer',
+                    multiSelect: true
+                });
 
-            $('#quiz-smdsm').quiz({
-                questions: quizDataSMDSM,
-                resultsScreen: '#results-screen-smdsm',
-                counter: false,
-                homeButton: '#custom-home',
-                nextButtonText: 'Suivant',
-                finishButtonText: 'Terminer',
-                restartButtonText: 'Recommencer',
-                multiSelect: true
-            });
+                $('#quiz-smdsm').quiz({
+                    questions: quizDataSMDSM,
+                    resultsScreen: '#results-screen-smdsm',
+                    counter: false,
+                    homeButton: '#custom-home',
+                    nextButtonText: 'Suivant',
+                    finishButtonText: 'Terminer',
+                    restartButtonText: 'Recommencer',
+                    multiSelect: true
+                });
 
-            $('#quiz-vhf-asn').quiz({
-                questions: quizDataVHFASN,
-                resultsScreen: '#results-screen-vhf-asn',
-                counter: false,
-                homeButton: '#custom-home',
-                nextButtonText: 'Suivant',
-                finishButtonText: 'Terminer',
-                restartButtonText: 'Recommencer',
-                multiSelect: true
-            });
-        }
+                $('#quiz-vhf-asn').quiz({
+                    questions: quizDataVHFASN,
+                    resultsScreen: '#results-screen-vhf-asn',
+                    counter: false,
+                    homeButton: '#custom-home',
+                    nextButtonText: 'Suivant',
+                    finishButtonText: 'Terminer',
+                    restartButtonText: 'Recommencer',
+                    multiSelect: true
+                });
+            }
 
-        $(document).ready(loadQuiz);
+            loadQuiz();
+        });
     </script>
 </head>
 <body>
