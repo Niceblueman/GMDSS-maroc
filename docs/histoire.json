@@ -1,0 +1,80 @@
+[
+    {
+        "question": "Quand a été fondée l’ANRT au Maroc ?",
+        "options": [
+            { "value": "b", "text": "1998" },
+            { "value": "a", "text": "1994" },
+            { "value": "c", "text": "2001" },
+            { "value": "d", "text": "2005" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel est le rôle principal de l'ANRT au Maroc ?",
+        "options": [
+            { "value": "a", "text": "Réglementer le secteur des télécommunications" },
+            { "value": "b", "text": "Coordonner les opérations de sauvetage en mer" },
+            { "value": "c", "text": "Fournir les licences de navigation" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quelle technologie a été introduite au Maroc sous la supervision de l'ANRT pour améliorer les télécommunications ?",
+        "options": [
+            { "value": "d", "text": "5G" },
+            { "value": "a", "text": "2G" },
+            { "value": "b", "text": "3G" },
+            { "value": "c", "text": "4G" }
+        ],
+        "correct": "d"
+    },
+    {
+        "question": "Quel est l'un des objectifs de l'ANRT pour les années à venir ?",
+        "options": [
+            { "value": "a", "text": "Augmenter la couverture de téléphonie mobile en zones rurales" },
+            { "value": "b", "text": "Réguler les services de sauvetage en mer" },
+            { "value": "c", "text": "Introduire les nouvelles règles de navigation" },
+            { "value": "d", "text": "Superviser la pêche" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "L'ANRT joue-t-elle un rôle dans la protection des données personnelles ?",
+        "options": [
+            { "value": "a", "text": "Oui" },
+            { "value": "b", "text": "Non" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Où est situé le MRCC principal au Maroc ?",
+        "options": [
+            { "value": "c", "text": "Tanger" },
+            { "value": "a", "text": "Rabat" },
+            { "value": "b", "text": "Casablanca" },
+            { "value": "d", "text": "Agadir" }
+        ],
+        "correct": "c"
+    },
+    {
+        "question": "Quel est le rôle du MRCC au Maroc ?",
+        "options": [
+            { "value": "b", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "a", "text": "Gérer les opérations de télécommunication maritime" },
+            { "value": "c", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "d", "text": "Fournir des licences aux pêcheurs" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quels sont les composants du Système Mondial de Détresse et de Sécurité en Mer (GMDSS) ?",
+        "options": [
+            { "value": "a", "text": "EPIRB" },
+            { "value": "b", "text": "NAVTEX" },
+            { "value": "c", "text": "AIS" },
+            { "value": "d", "text": "VHF DSC" }
+        ],
+        "correct": ["a", "b", "d"]
+    }
+]

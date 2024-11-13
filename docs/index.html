@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz d'Histoire : ANRT et MRCC au Maroc</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e0ffe0;
+            border: 1px solid #b2ffb2;
+        }
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .glossary {
+            margin-top: 20px;
+        }
+        .glossary h2 {
+            color: #333;
+        }
+        .glossary ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .glossary li {
+            margin-bottom: 10px;
+        }
+        .glossary a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .glossary a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-quiz/1.0.0/jquery.quiz.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-quiz/1.0.0/jquery.quiz.min.css">
+    <script>
+        async function loadQuiz() {
+            const response = await fetch('histoire.json');
+            const questions = await response.json();
+            const quizData = questions.map((question, index) => ({
+                q: question.question,
+                options: question.options.map(option => option.text),
+                correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
+            }));
+
+            $('#quiz').quiz({
+                questions: quizData,
+                resultsScreen: '#results-screen',
+                counter: false,
+                homeButton: '#custom-home',
+                nextButtonText: 'Suivant',
+                finishButtonText: 'Terminer',
+                restartButtonText: 'Recommencer',
+                multiSelect: true
+            });
+        }
+
+        async function loadGlossary() {
+            const response = await fetch('http://www.reussir-permis-bateau.fr/p_crr_a/p_crr_gen/p_crr_gen.htm');
+            const text = await response.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(text, 'text/html');
+            const glossaryItems = Array.from(doc.querySelectorAll('a')).map(link => ({
+                text: link.textContent,
+                href: link.href
+            }));
+
+            const glossaryList = $('#glossary-list');
+            glossaryItems.forEach(item => {
+                glossaryList.append(`<li><a href="${item.href}" target="_blank">${item.text}</a></li>`);
+            });
+        }
+
+        $(document).ready(() => {
+            loadQuiz();
+            loadGlossary();
+        });
+    </script>
+</head>
+<body>
+
+    <h1>Quiz d'Histoire : ANRT et MRCC au Maroc</h1>
+    <div id="quiz"></div>
+    <div id="results-screen" style="display: none;">
+        <h2>Résultat</h2>
+        <p id="quiz-results"></p>
+    </div>
+    <div class="glossary">
+        <h2>Glossaire des Quiz</h2>
+        <ul id="glossary-list"></ul>
+    </div>
+
+</body>
+</html>
