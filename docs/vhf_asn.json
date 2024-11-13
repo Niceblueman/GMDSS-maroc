@@ -1,0 +1,302 @@
+[
+    {
+        "question": "Quelle est la procédure d'appel de détresse avec Radio VHF sans ASN?",
+        "options": [
+            { "text": "Appel'Vocal' de Détresse (VHF voie 16)", "value": "a" },
+            { "text": "Appel'Numérique' de Détresse (VHF voie 70)", "value": "b" },
+            { "text": "Appel'Vocal' de Sécurité (VHF voie 16)", "value": "c" },
+            { "text": "Appel'Numérique' de Sécurité (VHF voie 70)", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quelle est la procédure d'appel d'urgence avec Radio VHF ASN?",
+        "options": [
+            { "text": "Appel'Vocal' d'Urgence (VHF voie 16)", "value": "a" },
+            { "text": "Appel'Numérique'd'Urgence (VHF voie 70)", "value": "b" },
+            { "text": "Appel'Vocal' de Détresse (VHF voie 16)", "value": "c" },
+            { "text": "Appel'Numérique' de Détresse (VHF voie 70)", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quelle est la procédure d'appel de sécurité avec Radio VHF sans ASN?",
+        "options": [
+            { "text": "Appel'Vocal' de Sécurité (VHF voie 16)", "value": "a" },
+            { "text": "Appel'Numérique' de Sécurité (VHF voie 70)", "value": "b" },
+            { "text": "Appel'Vocal' de Détresse (VHF voie 16)", "value": "c" },
+            { "text": "Appel'Numérique' de Détresse (VHF voie 70)", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quelle est la procédure d'appel de détresse avec Radio VHF ASN?",
+        "options": [
+            { "text": "Appel'Vocal' de Détresse (VHF voie 16)", "value": "a" },
+            { "text": "Appel'Numérique' de Détresse (VHF voie 70)", "value": "b" },
+            { "text": "Appel'Vocal' de Sécurité (VHF voie 16)", "value": "c" },
+            { "text": "Appel'Numérique' de Sécurité (VHF voie 70)", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quelle est la procédure d'appel d'urgence avec Radio VHF sans ASN?",
+        "options": [
+            { "text": "Appel'Vocal' d'Urgence (VHF voie 16)", "value": "a" },
+            { "text": "Appel'Numérique'd'Urgence (VHF voie 70)", "value": "b" },
+            { "text": "Appel'Vocal' de Détresse (VHF voie 16)", "value": "c" },
+            { "text": "Appel'Numérique' de Détresse (VHF voie 70)", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quelle est la procédure d'appel de sécurité avec Radio VHF ASN?",
+        "options": [
+            { "text": "Appel'Vocal' de Sécurité (VHF voie 16)", "value": "a" },
+            { "text": "Appel'Numérique' de Sécurité (VHF voie 70)", "value": "b" },
+            { "text": "Appel'Vocal' de Détresse (VHF voie 16)", "value": "c" },
+            { "text": "Appel'Numérique' de Détresse (VHF voie 70)", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel est le canal utilisé pour les appels de détresse vocaux en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le canal utilisé pour les appels de détresse numériques en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel est le message d'appel de détresse vocal?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["c"]
+    },
+    {
+        "question": "Quel est le message d'appel d'urgence vocal?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de sécurité vocal?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels de sécurité numériques en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels d'urgence numériques en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels de sécurité vocaux en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels d'urgence vocaux en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de sécurité numérique?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel est le message d'appel d'urgence numérique?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de détresse numérique?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["c"]
+    },
+    {
+        "question": "Quel est le canal utilisé pour les appels de détresse numériques en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel est le canal utilisé pour les appels de détresse vocaux en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de détresse vocal?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["c"]
+    },
+    {
+        "question": "Quel est le message d'appel d'urgence vocal?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de sécurité vocal?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels de sécurité numériques en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels d'urgence numériques en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels de sécurité vocaux en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel canal est utilisé pour les appels d'urgence vocaux en VHF?",
+        "options": [
+            { "text": "VHF voie 16", "value": "a" },
+            { "text": "VHF voie 70", "value": "b" },
+            { "text": "VHF voie 12", "value": "c" },
+            { "text": "VHF voie 6", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de sécurité numérique?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel est le message d'appel d'urgence numérique?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le message d'appel de détresse numérique?",
+        "options": [
+            { "text": "PAN PAN, PAN PAN, PAN PAN", "value": "a" },
+            { "text": "SECURITE, SECURITE, SECURITE", "value": "b" },
+            { "text": "MAYDAY, MAYDAY, MAYDAY", "value": "c" },
+            { "text": "CQ, CQ, CQ", "value": "d" }
+        ],
+        "correct": ["c"]
+    }
+]

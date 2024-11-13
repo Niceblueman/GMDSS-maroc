@@ -76,5 +76,195 @@
             { "value": "d", "text": "VHF DSC" }
         ],
         "correct": ["a", "b", "d"]
+    },
+    {
+        "question": "Quelle organisation internationale a modifié la convention SOLAS en 1974 ?",
+        "options": [
+            { "value": "a", "text": "OMI" },
+            { "value": "b", "text": "UIT" },
+            { "value": "c", "text": "ANRT" },
+            { "value": "d", "text": "CROSS" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "En quelle année la convention SAR est-elle entrée en vigueur ?",
+        "options": [
+            { "value": "a", "text": "1974" },
+            { "value": "b", "text": "1985" },
+            { "value": "c", "text": "1999" },
+            { "value": "d", "text": "1988" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel est le rôle principal des satellites Inmarsat dans le service mobile maritime ?",
+        "options": [
+            { "value": "a", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "b", "text": "Fournir des services de sécurité et de correspondance publique" },
+            { "value": "c", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel type de permis est requis pour utiliser un équipement VHF dans les eaux françaises ?",
+        "options": [
+            { "value": "a", "text": "Permis Eaux maritimes (Côtier)" },
+            { "value": "b", "text": "Permis Eaux Intérieures (Fluvial)" },
+            { "value": "c", "text": "Certificat d'opérateur" },
+            { "value": "d", "text": "Licence de navigation" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quelle est la portée typique des stations côtières VHF ?",
+        "options": [
+            { "value": "a", "text": "10 à 15 milles" },
+            { "value": "b", "text": "20 à 30 milles" },
+            { "value": "c", "text": "40 à 50 milles" },
+            { "value": "d", "text": "60 à 70 milles" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel est le rôle des CROSS en France métropolitaine ?",
+        "options": [
+            { "value": "a", "text": "Gérer les opérations de télécommunication maritime" },
+            { "value": "b", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "c", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "d", "text": "Fournir des licences aux pêcheurs" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel est l'apport majeur du SMDSM au service mobile maritime ?",
+        "options": [
+            { "value": "a", "text": "Introduction de la radiotéléphonie" },
+            { "value": "b", "text": "Utilisation de l'Appel Sélectif Numérique (ASN)" },
+            { "value": "c", "text": "Développement des activités touristiques maritimes" },
+            { "value": "d", "text": "Réglementation des fréquences maritimes" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel est le rôle des balises EPIRB dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Fournir des services de correspondance publique" },
+            { "value": "b", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "c", "text": "Envoyer des signaux de détresse et de localisation" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "c"
+    },
+    {
+        "question": "Quelle est la fréquence de détresse internationale en VHF ?",
+        "options": [
+            { "value": "a", "text": "156.8 MHz" },
+            { "value": "b", "text": "121.5 MHz" },
+            { "value": "c", "text": "243.0 MHz" },
+            { "value": "d", "text": "406 MHz" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quel est le principal avantage de l'Appel Sélectif Numérique (ASN) ?",
+        "options": [
+            { "value": "a", "text": "Permettre des communications vocales claires" },
+            { "value": "b", "text": "Automatiser les appels de détresse" },
+            { "value": "c", "text": "Fournir des services de correspondance publique" },
+            { "value": "d", "text": "Réglementer les fréquences maritimes" }
+        ],
+        "correct": "b"
+    },
+    {
+        "question": "Quel est le rôle des satellites COSPAS-SARSAT ?",
+        "options": [
+            { "value": "a", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "b", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "c", "text": "Détecter et localiser les signaux de détresse" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "c"
+    },
+    {
+        "question": "Quel est le rôle des balises SART dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Fournir des services de correspondance publique" },
+            { "value": "b", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "c", "text": "Envoyer des signaux de détresse et de localisation" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "c"
+    },
+    {
+        "question": "Quelle est la fréquence de détresse internationale en MF ?",
+        "options": [
+            { "value": "a", "text": "2182 kHz" },
+            { "value": "b", "text": "121.5 MHz" },
+            { "value": "c", "text": "243.0 MHz" },
+            { "value": "d", "text": "406 MHz" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quel est le rôle des stations côtières dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "b", "text": "Fournir des services de correspondance publique" },
+            { "value": "c", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quel est le rôle des satellites GEOSAR dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "b", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "c", "text": "Détecter et localiser les signaux de détresse" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "c"
+    },
+    {
+        "question": "Quel est le rôle des satellites LEOSAR dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "b", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "c", "text": "Détecter et localiser les signaux de détresse" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "c"
+    },
+    {
+        "question": "Quelle est la fréquence de détresse internationale en HF ?",
+        "options": [
+            { "value": "a", "text": "2182 kHz" },
+            { "value": "b", "text": "121.5 MHz" },
+            { "value": "c", "text": "243.0 MHz" },
+            { "value": "d", "text": "406 MHz" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quel est le rôle des stations terriennes dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "b", "text": "Fournir des services de correspondance publique" },
+            { "value": "c", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "a"
+    },
+    {
+        "question": "Quel est le rôle des satellites METEOSAT dans le SMDSM ?",
+        "options": [
+            { "value": "a", "text": "Assurer la sécurité des frontières maritimes" },
+            { "value": "b", "text": "Coordonner les opérations de recherche et de sauvetage en mer" },
+            { "value": "c", "text": "Fournir des prévisions météorologiques" },
+            { "value": "d", "text": "Promouvoir les activités touristiques maritimes" }
+        ],
+        "correct": "c"
     }
 ]

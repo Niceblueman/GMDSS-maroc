@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz d'Histoire : ANRT et MRCC au Maroc</title>
+    <title>Quiz d'Histoire et SMDSM : ANRT et MRCC au Maroc</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -35,43 +35,61 @@
             border: none;
             cursor: pointer;
         }
-        .glossary {
-            margin-top: 20px;
-        }
-        .glossary h2 {
-            color: #333;
-        }
-        .glossary ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .glossary li {
-            margin-bottom: 10px;
-        }
-        .glossary a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .glossary a:hover {
-            text-decoration: underline;
-        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-quiz/1.0.0/jquery.quiz.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-quiz/1.0.0/jquery.quiz.min.css">
     <script>
         async function loadQuiz() {
-            const response = await fetch('histoire.json');
-            const questions = await response.json();
-            const quizData = questions.map((question, index) => ({
+            const responseHistoire = await fetch('histoire.json');
+            const questionsHistoire = await responseHistoire.json();
+            const quizDataHistoire = questionsHistoire.map((question, index) => ({
                 q: question.question,
                 options: question.options.map(option => option.text),
                 correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
             }));
 
-            $('#quiz').quiz({
-                questions: quizData,
-                resultsScreen: '#results-screen',
+            const responseSMDSM = await fetch('smdsm.json');
+            const questionsSMDSM = await responseSMDSM.json();
+            const quizDataSMDSM = questionsSMDSM.map((question, index) => ({
+                q: question.question,
+                options: question.options.map(option => option.text),
+                correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
+            }));
+
+            const responseVHFASN = await fetch('vhf_asn.json');
+            const questionsVHFASN = await responseVHFASN.json();
+            const quizDataVHFASN = questionsVHFASN.map((question, index) => ({
+                q: question.question,
+                options: question.options.map(option => option.text),
+                correctIndex: question.correct.map(value => question.options.findIndex(option => option.value === value))
+            }));
+
+            $('#quiz-histoire').quiz({
+                questions: quizDataHistoire,
+                resultsScreen: '#results-screen-histoire',
+                counter: false,
+                homeButton: '#custom-home',
+                nextButtonText: 'Suivant',
+                finishButtonText: 'Terminer',
+                restartButtonText: 'Recommencer',
+                multiSelect: true
+            });
+
+            $('#quiz-smdsm').quiz({
+                questions: quizDataSMDSM,
+                resultsScreen: '#results-screen-smdsm',
+                counter: false,
+                homeButton: '#custom-home',
+                nextButtonText: 'Suivant',
+                finishButtonText: 'Terminer',
+                restartButtonText: 'Recommencer',
+                multiSelect: true
+            });
+
+            $('#quiz-vhf-asn').quiz({
+                questions: quizDataVHFASN,
+                resultsScreen: '#results-screen-vhf-asn',
                 counter: false,
                 homeButton: '#custom-home',
                 nextButtonText: 'Suivant',
@@ -81,39 +99,31 @@
             });
         }
 
-        async function loadGlossary() {
-            const response = await fetch('http://www.reussir-permis-bateau.fr/p_crr_a/p_crr_gen/p_crr_gen.htm');
-            const text = await response.text();
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(text, 'text/html');
-            const glossaryItems = Array.from(doc.querySelectorAll('a')).map(link => ({
-                text: link.textContent,
-                href: link.href
-            }));
-
-            const glossaryList = $('#glossary-list');
-            glossaryItems.forEach(item => {
-                glossaryList.append(`<li><a href="${item.href}" target="_blank">${item.text}</a></li>`);
-            });
-        }
-
-        $(document).ready(() => {
-            loadQuiz();
-            loadGlossary();
-        });
+        $(document).ready(loadQuiz);
     </script>
 </head>
 <body>
 
-    <h1>Quiz d'Histoire : ANRT et MRCC au Maroc</h1>
-    <div id="quiz"></div>
-    <div id="results-screen" style="display: none;">
+    <h1>Quiz d'Histoire et SMDSM : ANRT et MRCC au Maroc</h1>
+    <h2>Quiz d'Histoire</h2>
+    <div id="quiz-histoire"></div>
+    <div id="results-screen-histoire" style="display: none;">
         <h2>Résultat</h2>
-        <p id="quiz-results"></p>
+        <p id="quiz-results-histoire"></p>
     </div>
-    <div class="glossary">
-        <h2>Glossaire des Quiz</h2>
-        <ul id="glossary-list"></ul>
+
+    <h2>Quiz SMDSM</h2>
+    <div id="quiz-smdsm"></div>
+    <div id="results-screen-smdsm" style="display: none;">
+        <h2>Résultat</h2>
+        <p id="quiz-results-smdsm"></p>
+    </div>
+
+    <h2>Quiz Procédures Radio VHF & ASN</h2>
+    <div id="quiz-vhf-asn"></div>
+    <div id="results-screen-vhf-asn" style="display: none;">
+        <h2>Résultat</h2>
+        <p id="quiz-results-vhf-asn"></p>
     </div>
 
 </body>

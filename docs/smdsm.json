@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Quelle est la fonction principale du SMDSM?",
+        "options": [
+            { "text": "Assurer la sécurité maritime", "value": "a" },
+            { "text": "Faciliter le commerce maritime", "value": "b" },
+            { "text": "Promouvoir le tourisme", "value": "c" },
+            { "text": "Réguler la pêche", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel organisme au Maroc est responsable de la gestion du SMDSM?",
+        "options": [
+            { "text": "ANRT", "value": "a" },
+            { "text": "MRCC", "value": "b" },
+            { "text": "ONCF", "value": "c" },
+            { "text": "RAM", "value": "d" }
+        ],
+        "correct": ["b"]
+    },
+    {
+        "question": "Quel est le rôle de l'ANRT dans le contexte du SMDSM?",
+        "options": [
+            { "text": "Réguler les télécommunications", "value": "a" },
+            { "text": "Coordonner les opérations de sauvetage", "value": "b" },
+            { "text": "Gérer les ports", "value": "c" },
+            { "text": "Superviser la construction navale", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel équipement est essentiel pour le SMDSM?",
+        "options": [
+            { "text": "Radio VHF", "value": "a" },
+            { "text": "GPS", "value": "b" },
+            { "text": "Radar", "value": "c" },
+            { "text": "Sonar", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le canal VHF utilisé pour les appels de détresse au Maroc?",
+        "options": [
+            { "text": "Canal 16", "value": "a" },
+            { "text": "Canal 12", "value": "b" },
+            { "text": "Canal 6", "value": "c" },
+            { "text": "Canal 8", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle du MRCC dans le SMDSM?",
+        "options": [
+            { "text": "Coordonner les opérations de recherche et de sauvetage", "value": "a" },
+            { "text": "Gérer les communications maritimes", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Réguler les télécommunications", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le numéro d'appel d'urgence maritime au Maroc?",
+        "options": [
+            { "text": "196", "value": "a" },
+            { "text": "112", "value": "b" },
+            { "text": "118", "value": "c" },
+            { "text": "115", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des balises EPIRB dans le SMDSM?",
+        "options": [
+            { "text": "Envoyer des signaux de détresse", "value": "a" },
+            { "text": "Naviguer les navires", "value": "b" },
+            { "text": "Communiquer avec les ports", "value": "c" },
+            { "text": "Réguler la pêche", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des stations côtières dans le SMDSM?",
+        "options": [
+            { "text": "Communiquer avec les navires", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des satellites dans le SMDSM?",
+        "options": [
+            { "text": "Relayer les signaux de détresse", "value": "a" },
+            { "text": "Naviguer les navires", "value": "b" },
+            { "text": "Communiquer avec les ports", "value": "c" },
+            { "text": "Réguler la pêche", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de sauvetage dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des centres de coordination de sauvetage dans le SMDSM?",
+        "options": [
+            { "text": "Coordonner les opérations de recherche et de sauvetage", "value": "a" },
+            { "text": "Gérer les communications maritimes", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Réguler les télécommunications", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de commerce dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de plaisance dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de guerre dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de recherche dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de soutien dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de transport dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de passagers dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de croisière dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche industrielle dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche artisanale dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche côtière dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche hauturière dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en haute mer dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux profondes dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux côtières dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux territoriales dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux internationales dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux profondes dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux côtières dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux territoriales dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    },
+    {
+        "question": "Quel est le rôle des navires de pêche en eaux internationales dans le SMDSM?",
+        "options": [
+            { "text": "Participer aux opérations de sauvetage", "value": "a" },
+            { "text": "Réguler les télécommunications", "value": "b" },
+            { "text": "Superviser la construction navale", "value": "c" },
+            { "text": "Gérer les ports", "value": "d" }
+        ],
+        "correct": ["a"]
+    }
+]
